@@ -30,8 +30,8 @@
         "id": "blades-in-the-dark",
         "type": "system",
         "compatibility": {
-          "minimum": "4.0.0",
-          "verified": "4.8.0"
+          "minimum": "4.0",
+          "verified": "4.8"
         }
       }
     ]
