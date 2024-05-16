@@ -6,8 +6,8 @@
 	
 		.blades-in-the-dark.sheet.actor,
 		.blades-in-the-dark.sheet.item,
-		.blades-alt.sheet.actor,
-		.blades-alt.sheet.item {
+		.court-of-blades.sheet.actor,
+		.court-of-blades.sheet.item {
 		    background: rgba(6, 4, 3, 0.92);
 		    border-image-source: url(../../ui/frames/input_border.webp);
 		    border-image-slice: 5 20 20 20 fill;
@@ -18,7 +18,7 @@
 		}
 
 		.blades-in-the-dark.sheet ::-webkit-scrollbar-thumb,
-		.blades-alt.sheet ::-webkit-scrollbar-thumb {
+		.court-of-blades.sheet ::-webkit-scrollbar-thumb {
 		    outline: none;
 		    border-radius: 0px;
 		    border: none;
@@ -26,7 +26,7 @@
 		}
 		
 		.blades-in-the-dark.sheet ::-webkit-scrollbar-track,
-		.blades-alt.sheet ::-webkit-scrollbar-track {
+		.court-of-blades.sheet ::-webkit-scrollbar-track {
 		    background: #181413;
 		}
 		
@@ -36,16 +36,16 @@
 		
 		.window-app.blades-in-the-dark.sheet.actor .window-header,
 		.window-app.blades-in-the-dark.sheet.item .window-header,
-		.window-app.blades-alt.sheet.actor .window-header,
-		.window-app.blades-alt.sheet.item .window-header{
+		.window-app.court-of-blades.sheet.actor .window-header,
+		.window-app.court-of-blades.sheet.item .window-header{
 		    border: none;
 		    color: var(--main-text-light-color);
 		}
 		
 		.window-app.blades-in-the-dark.sheet.actor .window-header::after,
 		.window-app.blades-in-the-dark.sheet.item .window-header::after,
-		.window-app.blades-alt.sheet.actor .window-header::after,
-		.window-app.blades-alt.sheet.item .window-header::after{
+		.window-app.court-of-blades.sheet.actor .window-header::after,
+		.window-app.court-of-blades.sheet.item .window-header::after{
 		    position: absolute;
 		    z-index: -1;
 		    content: " ";
@@ -59,8 +59,8 @@
 		
 		.blades-in-the-dark.sheet.actor .window-content,
 		.blades-in-the-dark.sheet.item .window-content,
-		.blades-alt.sheet.actor .window-content,
-		.blades-alt.sheet.item .window-content {
+		.court-of-blades.sheet.actor .window-content,
+		.court-of-blades.sheet.item .window-content {
 		    background: none;
 		    color: var(--main-text-light-color);
 		}
@@ -114,7 +114,7 @@
 			text-transform: uppercase;
 		}
 
-		.blades-alt .attribute-skill-label {
+		.court-of-blades .attribute-skill-label {
 			text-transform: uppercase;
 			padding-top: 6px;
 		}
@@ -135,14 +135,14 @@
 			color: var(--header-text-color-light);
 		}
 
-		.blades-alt header.full-bar,
-		.blades-alt .tab-space .tab-item{
+		.court-of-blades header.full-bar,
+		.court-of-blades .tab-space .tab-item{
 		    background-color: var(--header-bg-color) !important;
 			color: var(--header-text-color-light);
 		}
 
 
-		.blades-alt .tab-space .tab-item:not(.active) {
+		.court-of-blades .tab-space .tab-item:not(.active) {
 			opacity: 0.4;
 			background-color: var(--header-bg-color) !important;
 			color: var(--color-text-light-highlight);
@@ -180,13 +180,13 @@
 			
 		}	
 
-		.blades-alt.actor.pc .character-portrait div.portrait {
+		.court-of-blades.actor.pc .character-portrait div.portrait {
 			width: 85% !important;
 			height: 85% !important;
 			left: 35px;
 		}
 
-		.blades-alt.actor.pc .character-portrait div.status-buttons {
+		.court-of-blades.actor.pc .character-portrait div.status-buttons {
 			left: -10px !important;
 		}
 
@@ -212,7 +212,7 @@
 			margin-right: 15px;
 		}
 		
-		.blades-alt.sheet.actor.pc .name-alias {
+		.court-of-blades.sheet.actor.pc .name-alias {
 		    color: var(--main-text-light-color) !important;
 		}
 		
@@ -254,27 +254,27 @@
 			text-overflow: ellipsis;
 		}
 
-		.blades-alt.actor.pc .playbook section,
-		.blades-alt.actor.pc .playbook:after,
-		.blades-alt.actor.pc .character-notes-area {
+		.court-of-blades.actor.pc .playbook section,
+		.court-of-blades.actor.pc .playbook:after,
+		.court-of-blades.actor.pc .character-notes-area {
 			background: none !important;	
 		}
 
-		.blades-alt.actor.pc .abilities .ability-block:nth-child(even),
-		.blades-alt.actor.pc .character-notes-area .editor{
+		.court-of-blades.actor.pc .abilities .ability-block:nth-child(even),
+		.court-of-blades.actor.pc .character-notes-area .editor{
 			background-color: var(--text-bg-color) !important;	
 		}
 
-		.blades-alt.actor.pc .abilities .ability-block input {
+		.court-of-blades.actor.pc .abilities .ability-block input {
 			margin-top: 3px !important;
 		}
 
-		.blades-alt.actor.pc .abilities .ability-list label {
-			font-size: 1.2em
+		.court-of-blades.actor.pc .abilities .ability-list label {
+			font-size: 1.2em;
 			line-height: 1.1em;
 		}
 
-		.blades-alt.actor.pc .abilities .ability-list .ability-name {
+		.court-of-blades.actor.pc .abilities .ability-list .ability-name {
 			line-height: 0em;
 		}
 
@@ -299,7 +299,7 @@
 		}
 
 		/* = Skill names = */
-		.blades-alt .attribute-skill-label {
+		.court-of-blades .attribute-skill-label {
 			text-transform: uppercase;
 			padding-top: 6px;
 		}
@@ -388,6 +388,12 @@
 		.blades-in-the-dark.actor.crew .crew-class .big-description {
 			color: var(--main-text-light-color);
 			font-family: 'Kirsty';
+		}
+
+		/* = Influence = */
+		.court-of-blades.actor.sheet.crew .sheet-wrapper .coins-box .stripe {
+			color: var(--header-text-color-light);
+			font-family: Kirsty, serif;
 		}
 		
 	/* == TABS == */
