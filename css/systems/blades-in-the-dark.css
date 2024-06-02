@@ -477,7 +477,7 @@
 
 /* == HEADER == */
 
-	/* = Crew type = */
+	/* = Coins = */
 	.blades-alt.actor.sheet.crew .sheet-wrapper .coins-box .stripe {
 		color: var(--header-text-color-light);
 		font-family: Kirsty, serif;
@@ -628,6 +628,14 @@
 
 	.court-of-blades.sheet.actor.crew .name-alias {
 		color: var(--main-text-light-color) !important;
+	}
+
+/* == HEADER == */
+
+	/* = Influence = */
+	.court-of-blades.sheet.crew .sheet-wrapper .coins-box .stripe {
+		color: var(--header-text-color-light);
+		font-family: Kirsty, serif;
 	}
 
 /* == ITEMS == */
